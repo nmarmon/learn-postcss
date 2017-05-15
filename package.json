@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/nmarmon/learn-postcss#readme",
   "devDependencies": {
+    "csswring": "^6.0.0",
     "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.0"
+    "gulp-postcss": "^7.0.0",
+    "perfectionist": "^2.4.0"
   }
 }
