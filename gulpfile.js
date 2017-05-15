@@ -12,3 +12,7 @@ gulp.task('styles', function(){
         .pipe(postcss(processors))
         .pipe(gulp.dest('./dist'));
 });
+
+gulp.task('watch:styles',function(){
+  gulp.watch('**/*.css', ['styles']);
+});
