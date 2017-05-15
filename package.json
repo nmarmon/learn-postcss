@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/nmarmon/learn-postcss#readme",
   "devDependencies": {
+    "autoprefixer": "^7.1.0",
     "csswring": "^6.0.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
