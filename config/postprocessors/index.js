@@ -6,6 +6,8 @@ var postprocessors= [];
 
 //development
 postprocessors.push(require('perfectionist'));
+var autoprefixerOptions = { bowsers: ['last 2 versions'] };
+postprocessors.push(require('autoprefixer')(autoprefixerOptions));
 //production
 if(isProd) {
     //postprocessors.push(require('autoprefixer'));
