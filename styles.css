@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+    height: 15vh;
+    background-color: lightgreen;
+}
+
+header .header-title {
+    border: 2px solid blue;
+}
+
+
+@media only screen (min-width: 700px) {
+    body {
+
+    }
+
+    header {
+        border-radius: 4px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen (min-width: 1200px) {
+    body {
+        flex-flow: row;
+    }
+
+    header {
+        border-radius: 10%;
+    }
+
+}
