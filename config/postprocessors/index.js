@@ -4,10 +4,14 @@ var isDev = process.env.NODE_ENV === 'development'; //true or false
 
 var postprocessors= [];
 
+//configs
+var stylelintConfig = require('./stylelint');
+var autoprefixerConfig = { bowsers: ['last 2 versions'] };
+
 //development
 postprocessors.push(require('perfectionist'));
-var autoprefixerOptions = { bowsers: ['last 2 versions'] };
-postprocessors.push(require('autoprefixer')(autoprefixerOptions));
+postprocessors.push(require('stylelint')(stylelintConfig));
+postprocessors.push(require('autoprefixer')(autoprefixerConfig));
 //production
 if(isProd) {
     //postprocessors.push(require('autoprefixer'));
