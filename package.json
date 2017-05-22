@@ -26,6 +26,7 @@
     "csswring": "^6.0.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
+    "more-colors": "0.0.1",
     "perfectionist": "^2.4.0",
     "postcss-debug": "^0.4.2",
     "stylelint": "^7.10.1"
