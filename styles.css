@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-flow: column;
+    background-color: lightblack;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 }
 
 header .header-title {
-    border: 2px solid blue;
+    border: 2px solid lightpink;
 }
 
 
